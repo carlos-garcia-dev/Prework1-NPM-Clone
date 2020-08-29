@@ -8,35 +8,33 @@ Madrid - Octubre 2020 */
 
 
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+}
+
+
+body {
+  font-family: "Roboto";
   size: 10px;
   line-height: 3.5em;
   font-weight: 300;
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-family: Roboto Condensed;
+h1, h2, h3, h4, h5, h6 {
+ font-family: "Roboto Condensed";
 }
 
 
-h1{
+h1 {
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
 }
 
 
-h2{
+h2 {
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
@@ -136,11 +134,12 @@ h5{
 .link-btn{
     background-color: #43A3E6;
     color: #FFFFFF;
-    font-family: Roboto Condensed;
+    font-family: "Roboto Condensed";
     font-size: 2em;
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+
 }
 
 .container{
@@ -245,8 +244,8 @@ h5{
 }
 
 .schedule-table th, td{
-    border-bottom: solid 1px #000000;
-    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #000000;
+    padding: 5px 10px;
     text-align: center;
 }
 
@@ -269,12 +268,10 @@ h5{
     width: 100%;
 }
 
+/*Desplegable no se visualizaba al completo*/
 .slot-form-container select{
     padding: 0px;
 }
-
-
-
 
 .slot-form-container button{
     border: 1px solid #000000;
@@ -283,7 +280,6 @@ h5{
     padding: 9px;
     margin-top: 15px;
 }
-
 
 
 
@@ -315,7 +311,8 @@ h5{
     padding: 0;
 }
 
+/*Mapa más estético*/
 .map-frame{
-    height: 375px;
+    height: 600px;
     width: 60%;
 }
