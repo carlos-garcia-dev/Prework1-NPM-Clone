@@ -41,6 +41,8 @@ h2{
     text-align: center;
     text-transform: uppercase;
     line-height: 4em;
+    color: #FFFFFF;
+    text-shadow: #020819 8px -20px 9px;
 }
 
 
@@ -108,13 +110,8 @@ h5{
     position: relative;
 }
 
-h2{
-    color: #FFFFFF;
-    text-shadow: #020819 8px -20px 9px;
-    font-size: 2.5em;
-}
-
 .quote{
+    font-size: 2.5em;
     position: absolute;
     left: 10%;
     bottom: 100px;
@@ -123,7 +120,6 @@ h2{
 
 
 /* Section1 - Gral Information*/
-
 .dark-background{
     background-color: #192129;
     color: #FFFFFF;
@@ -172,7 +168,6 @@ h2{
 
 
 /* Section2 - Structure */
-
 .service-box{
     font-size: 1.7em;
     text-align: center;
@@ -199,7 +194,6 @@ h2{
 
 
 /* Section3 - Members */
-
 #team {
     padding: 75px 0;
     margin: 0 auto;
@@ -245,14 +239,52 @@ h2{
 
 
 /* Section 4 */
-
-.schedule-table th, td{
+.schedule-table {
     margin: 0 auto 40px auto;
     font-size: 1.5em;
+}
+
+.schedule-table th, td{
     border-bottom: solid 1px #000000;
     padding: 5px 10px 5px 10px;
     text-align: center;
 }
+
+.slot-form-container{
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slot-form-container label{
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form-container input, select{
+    height: 20px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.slot-form-container select{
+    padding: 0px;
+}
+
+
+
+
+.slot-form-container button{
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 9px;
+    margin-top: 15px;
+}
+
+
 
 
 
