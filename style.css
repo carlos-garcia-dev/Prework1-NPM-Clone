@@ -3,7 +3,8 @@
 
 /* Carlos García - LAB | HTML & CSS: NPM Clone
 https://github.com/carlos-garcia-dev
-https://www.codewars.com/users/cdvlpr */
+https://www.codewars.com/users/cdvlpr 
+Madrid - Octubre 2020 */
 
 
 
@@ -67,6 +68,7 @@ h5{
 
 
 
+
 /* Nav-Bar */
 .nav-bar{
     background-color:#192129;
@@ -83,6 +85,8 @@ h5{
 .nav-bar-ul{
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-bar-ul li{
@@ -96,18 +100,24 @@ h5{
 .header{
     background-image:
     url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
-
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
     padding-top: 50px;
+    position: relative;
 }
 
 h2{
     color: #FFFFFF;
     text-shadow: #020819 8px -20px 9px;
     font-size: 2.5em;
+}
+
+.quote{
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
 }
 
 
@@ -143,6 +153,22 @@ h2{
     padding: 75px 0;
 }
 
+#general-information{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+.link-btn{
+    padding: 10px 30px 10px 30px;
+}
+
 
 
 /* Section2 - Structure */
@@ -163,6 +189,12 @@ h2{
     width: 125px;
 }
 
+#structure > div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
 
@@ -198,9 +230,22 @@ h2{
     width: 40%;
 }
 
+#team > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team > div > article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 /* Section 4 */
+
 .schedule-table th, td{
     margin: 0 auto 40px auto;
     font-size: 1.5em;
@@ -217,6 +262,9 @@ h2{
     text-align: center;
     padding: 40px 100px 40px 100px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .address{
@@ -233,4 +281,9 @@ h2{
 .footer ul{
     list-style: none;
     padding: 0;
+}
+
+.map-frame{
+    height: 375px;
+    width: 60%;
 }
