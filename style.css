@@ -98,3 +98,80 @@ h2{
     background-color: #192129;
     color: #FFFFFF;
 }
+
+.information{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn{
+    background-color: #43A3E6;
+    color: #FFFFFF;
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* Section2 - Structure */
+
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img{
+    width: 125px;
+}
+
+
+
+
+/* Section3 - Members */
+
+#team .section-text{
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#team .member-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img{
+    width: 250px;
+    height: 180px;
+}
+
+
+
+
+/* Section 4 */
+
+
+
+
+/* Footer */
+.footer{
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.address{
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer a{
+    color: #43A3E6;
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+}
