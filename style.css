@@ -6,6 +6,7 @@ https://github.com/carlos-garcia-dev
 https://www.codewars.com/users/cdvlpr */
 
 
+
 html,
 body {
   margin: 0;
@@ -26,11 +27,13 @@ h6 {
  font-family: Roboto Condensed;
 }
 
+
 h1{
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
 }
+
 
 h2{
     font-size: 5em;
@@ -39,32 +42,36 @@ h2{
     line-height: 4em;
 }
 
+
 h3{
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
 }
 
+
 h4{
     font-size: 1.5em;
     letter-spacing: 0.4px;
     line-height: 1em;
+    margin-bottom: 15px;
 }
+
 
 h5{
     font-size: 1.2em;
     line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
-/*
-#43A3E6;
-#192129;
-*/
 
 /* Nav-Bar */
 .nav-bar{
     background-color:#192129;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .nav-bar a{
@@ -72,6 +79,18 @@ h5{
     text-decoration: none;
     font-size: 2em;
 }
+
+.nav-bar-ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-bar-ul li{
+    list-style: none;
+    text-align: center;
+}
+
+
 
 /*Header*/
 .header{
@@ -82,6 +101,7 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
+    padding-top: 50px;
 }
 
 h2{
@@ -103,6 +123,8 @@ h2{
     font-size: 2em;
     font-weight: 100;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .link-btn{
@@ -115,6 +137,12 @@ h2{
     text-decoration: none;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
 
 
 /* Section2 - Structure */
@@ -122,6 +150,13 @@ h2{
 .service-box{
     font-size: 1.7em;
     text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 40%;
 }
 
 .service-box img{
@@ -132,6 +167,11 @@ h2{
 
 
 /* Section3 - Members */
+
+#team {
+    padding: 75px 0;
+    margin: 0 auto;
+}
 
 #team .section-text{
     font-size: 1.9em;
@@ -148,11 +188,26 @@ h2{
     height: 180px;
 }
 
+#team p{
+    width: 60%;
+    margin: 10px auto;
+}
+
+#team hr{
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
 
 
 
 /* Section 4 */
-
+.schedule-table th, td{
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+    border-bottom: solid 1px #000000;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
 
 
 
@@ -160,11 +215,14 @@ h2{
 .footer{
     font-size: 1.9em;
     text-align: center;
+    padding: 40px 100px 40px 100px;
+    margin-bottom: 25px;
 }
 
 .address{
     font-style: normal;
     font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .footer a{
@@ -174,4 +232,5 @@ h2{
 
 .footer ul{
     list-style: none;
+    padding: 0;
 }
